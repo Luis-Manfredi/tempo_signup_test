@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/main.css">
+    <title>Tempo</title>
+</head>
+<body>
+    <div class="wrapper1">
+        <header>
+            <div class="contenedor_cabecero">
+                <div class="logo">
+                    <img src="CSS/Images/Tempo2.png" alt="logo_tempo">
+                </div>
+                <div class="menu">
+                    <ion-icon name="close-outline" id="close" onclick="abrirMenu()"></ion-icon>
+                    <ion-icon name="menu-outline" id="menu" onclick="abrirMenu()"></ion-icon>
+                    <div class="contenido" id="contenido">
+                        <a href="#">Download</a>
+                        <a href="#">Plans</a>
+                        <a href="#"><span>Log In</span></a>
+                        <a href="/signup"><span>Sign Up</span></a>
+                    </div>
+                </div>
+                <ul>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Plans</a></li>
+                    <li><button href="#" class="log_in">Log In</button></li>
+                    <li><a href="/signup" class="sign_up">Sign Up</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="fondo">
+            <img src="CSS/Images/background.png" alt="bg" id="fondo">
+        </div>
+    
+        <div class="seccion1">
+            <div class="intro">
+                <h1>Want to listen to your favorites artist with <span>no limits</span>?<br/>
+                    Try <span>Tempo Premium</span> for <span>2 months</span>!
+                </h1>
+                <p>Listen to the songs you enjoy, without ads.</p>
+                <div class="botones">
+                    <a class="boton_apple" href="#">
+                        <span class="boton_subtitulo">Download on the</span>
+                        <span class="boton_titulo">Apple Store</span>
+                    </a>
+                    <a class="boton_google" href="#">
+                        <span class="boton_subtitulo">Download on the</span>
+                        <span class="boton_titulo">Google Play</span>
+                    </a>
+                    <button class="start">Get Started</button>
+                </div>
+    
+                <div>
+                    <h2>Why Tempo?</h2>
+                </div>
+                
+                <div class="seccion2">
+                    <div class="caja0">
+                        <h3>Your favorite music in your pocket.</h3>
+                        <p>Explore your favorites artist with our
+                        library of 80 millions tracks.</p>
+                    </div>
+        
+                    <div class="caja0">
+                        <h3>Offline mode.</h3>
+                        <p>With Tempo Premium you can enjoy your music
+                        without being connected all the time.</p>
+                    </div>
+        
+                    <div class="caja0">
+                        <h3>Create your own collection.</h3>
+                        <p>You can create playlist and share
+                        them to your friends.</p>
+                    </div>
+        
+                    <div class="caja0">
+                        <h3>Made for you.</h3>
+                        <p>We know what you like. That’s why we love 
+                        to offer to you weekly discoveries.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="phone">
+                <img src="CSS/Images/smartphone.png" width="300" id="phone" height="auto" alt="smartphone">
+            </div>
+        </div>
+    </div>
+
+        <div class="seccion3">
+            <div class="contenedor2">
+                <div class="texto_s3">
+                    <h2>Available on all your devices</h2>
+                    <p>Tempo is available on all your devices. Download your favorites songs
+                    and listen to them even without WiFi or mobile network.</p>
+                </div>
+                <div class="devices">
+                    <ul>
+                        <li><ion-icon name="desktop-outline"></ion-icon></li>
+                        <li><ion-icon name="phone-portrait-outline"></ion-icon></li>
+                        <li><ion-icon name="tv-outline"></ion-icon></li>
+                        <li><ion-icon name="game-controller-outline"></ion-icon></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <div class="wrapper2">
+    
+        <div class="seccion4">
+            <h2>Get Your Music</h2>
+            <div class="toggle">
+                <p id="month">Monthly</p>
+                <label class="switch">
+                    <input type="checkbox" id="check" oninput="precio()">
+                    <span class="slider round"></span>
+                </label>
+                <p id="year">Annual</p>
+            </div>
+            <div class="contenedor">
+                <div class="caja1">
+                    <h3>Tempo Free</h3>
+                    <h4>$0.00 / month</h4>
+                    <ul>
+                        <li>
+                            <div class="lista">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p> 80 million tracks</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="lista">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Shuffle play</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="lista">
+                                <ion-icon name="close-outline"></ion-icon>
+                                <p>No ads</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="lista">
+                                <ion-icon name="close-outline"></ion-icon>
+                                <p>Get unlimited skips</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="lista">
+                                <ion-icon name="close-outline"></ion-icon>
+                                <p>Offline mode</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="lista">
+                                <ion-icon name="close-outline"></ion-icon>
+                                <p>6 accounts</p>
+                            </div>
+                        </li>
+                        <li><button class="start">Get Started</button></li>
+                    </ul>
+                </div>
+    
+                <div class="caja1" id="premium">
+                    <h3>Tempo Premium</h3>
+                    <h4 id="prem">$4.99 / month</h4>
+                    <ul>
+                        <li>
+                            <div class="lista">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p> 80 million tracks</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="lista">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Shuffle play</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="lista">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>No ads</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="lista">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Get unlimited skips</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="lista">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Offline mode</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="lista">
+                                <ion-icon name="close-outline"></ion-icon>
+                                <p>6 accounts</p>
+                            </div>
+                        </li>
+                        <li><button class="start">Get Started</button></li>
+                    </ul>
+                </div>
+    
+                <div class="caja1">
+                    <h3>Tempo Family</h3>
+                    <h4 id="family">$7.99 / month</h4>
+                    <ul>
+                        <li>
+                            <div class="lista">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p> 80 million tracks</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="lista">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Shuffle play</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="lista">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>No ads</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="lista">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Get unlimited skips</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="lista">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Offline mode</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="lista">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>6 accounts</p>
+                            </div>
+                        </li>
+                        <li><button class="start">Get Started</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <img src="CSS/Images/background.png" alt="bg" id="footer">
+
+        <div class="wrapper3">
+            <div class="seccion5">
+                <div class="contenedor3">
+                    <div class="caja2">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Press</a></li>
+                        </ul>
+                    </div>
+                    <div class="caja2">
+                        <h3>Communities</h3>
+                        <ul>
+                            <li><a href="#">For Artist</a></li>
+                            <li><a href="#">Developers</a></li>
+                            <li><a href="#">Brands</a></li>
+                            <li><a href="#">Investors</a></li>
+                        </ul>
+                    </div>
+                    <div class="caja2">
+                        <h3>News</h3>
+                        <ul>
+                            <li><a href="#">Latest News</a></li>
+                            <li><a href="#">Campaigns</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="contenedor4">
+                    <div class="logo">
+                        <img src="CSS/Images/Tempo2.png" alt="logo_tempo">
+                    </div>
+                    <div class="logo_white">
+                        <img src="CSS/Images/Tempo_White.png" alt="logo_white">
+                    </div>
+                    <div class="slogan">
+                        <h2>The best music in the best app.</h2>
+                    </div>
+                    <div class="media_icons">
+                        <ul>
+                            <li> 
+                                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                            </li>
+                            <li>
+                                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a> 
+                            </li>
+                            <li>
+                                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a> 
+                            </li>
+                            <li>
+                                <a href="#"><ion-icon name="logo-youtube"></ion-icon></a> 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="seccion6">
+                <div>
+                    <p>© 2021 Tempo. Made by Luis Manfredi</p>
+                </div>
+
+                <div>
+                    <ul>
+                        <li>
+                            <a href="#">Contacts</a>
+                        </li>
+                        <li>
+                            <a href="#">Support</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms & Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="JS/menu.js"></script>
+    <script src="JS/toggle.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
