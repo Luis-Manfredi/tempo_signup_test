@@ -7,6 +7,9 @@ app.set("port", 3000);
 app.set("appName", "Tempo_signUp");
 app.set("view engine", "ejs");
 
+//Database
+let users = [];
+
 //Middlewares
 function logger(req, res, next){
     console.log("Page loaded");
@@ -28,7 +31,10 @@ app.get("/signup", (req, res) =>{
 });
 
 app.post("/signup", (req, res) =>{
-    console.log(req.body);
+    // console.log(req.body);
+    users.push(req.body);
+    console.log(users);
+    console.log(users.length);
     res.render("profile.ejs", {data: req.body});
 });
 
