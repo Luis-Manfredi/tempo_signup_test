@@ -19,3 +19,9 @@ Example: C:/Users/User/Desktop/YourFolder/Tempo_signup_test> npm install ejs
 
 PD:
 At the moment, I have not applied database integration. I used an array called "users" to storage data received from the request body just for testing purposes.
+
+
+
+DEMO:
+
+![alt text](imgs-vids/start_up.mp4)
