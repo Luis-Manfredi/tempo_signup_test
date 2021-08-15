@@ -24,8 +24,17 @@ At the moment, I have not applied database integration. I used an array called "
 
 DEMO:
 
-starting up the server
+Starting up the server
 
 https://user-images.githubusercontent.com/75541418/129484520-8f04a214-7bb2-4b61-93ce-d5afe286c888.mp4
 
+
+Signing up 
+
+https://user-images.githubusercontent.com/75541418/129484561-b52862ff-1fb2-46e3-a900-bfb5462f9395.mp4
+
+
+Adding more data
+
+https://user-images.githubusercontent.com/75541418/129484577-d565149a-e68e-4623-9d7b-ea544d4e432a.mp4
 
