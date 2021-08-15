@@ -24,4 +24,5 @@ At the moment, I have not applied database integration. I used an array called "
 
 DEMO:
 
+starting up the server
 ![alt text](imgs-vids/start_up.mp4)
