@@ -25,4 +25,7 @@ At the moment, I have not applied database integration. I used an array called "
 DEMO:
 
 starting up the server
-![alt text](imgs-vids/start_up.mp4)
+
+https://user-images.githubusercontent.com/75541418/129484520-8f04a214-7bb2-4b61-93ce-d5afe286c888.mp4
+
+
